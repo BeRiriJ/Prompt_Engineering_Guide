@@ -49,7 +49,25 @@ Question: What was OKT3 originally sourced from?
 Answer:
 ```
 
+### Code Generation
 
+#### Write code
+
+```
+/*
+Ask the user for their name and say "Hello"
+*/
+```
+
+#### Write SQL
+
+```
+"""
+Table departments, columns = [DepartmentId, DepartmentName]
+Table students, columns = [DepartmentId, StudentId, StudentName]
+Create a MySQL query for all students in the Computer Science Department
+"""
+```
 
 ## Basic Settings
 
