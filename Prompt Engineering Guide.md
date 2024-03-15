@@ -69,6 +69,12 @@ Create a MySQL query for all students in the Computer Science Department
 """
 ```
 
+## Techniques
+
+### Zero-shot Prompting
+
+
+
 ## Basic Settings
 
 ### Temperatrue
