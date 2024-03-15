@@ -71,7 +71,38 @@ Create a MySQL query for all students in the Computer Science Department
 
 ## Techniques
 
-### Zero-shot Prompting
+### Zero-shot Prompting 
+
+Like unsupervised learning
+
+### Few-shot Prompting 
+
+Like supervised learning
+
+```
+An example of ... is:
+```
+
+If the tasks need reasoning steps like doing math, Few-shot Prompting may not work. In these cases, Chain-of-Thought Prompting (CoT) might help.
+
+### Chain-of-Thought Prompting (CoT)
+
+Providing the specific '''reasoning steps''' while giving examples.
+
+```
+Q: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can has 3 tennis balls. How many tennis balls does he have now？
+
+A: '''Roger started with 5 balls. 2 cans of 3 tennis balls each is 6 tennis balls. 5+ 6 = 11. '''The answer is 11.
+```
+
+### Zero-shot-CoT
+
+Use a more generalized saying to ask the LLM to do reasoning steps, by saying *'''Let's think step by step.'''* .
+
+```
+Q: A juggler can juggle 16 balls. Half of the balls are golf balls， and half of the golf balls are blue. How many blue golf balls are there？ 
+A: Let's think step by step.
+```
 
 
 
