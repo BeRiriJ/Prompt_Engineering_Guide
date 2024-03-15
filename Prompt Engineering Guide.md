@@ -104,6 +104,12 @@ Q: A juggler can juggle 16 balls. Half of the balls are golf balls， and half o
 A: Let's think step by step.
 ```
 
+### ??? Automatic Chain-of-Thought (Auto-CoT)
+
+???
+
+https://www.promptingguide.ai/techniques/cot
+
 
 
 ## Basic Settings
@@ -120,3 +126,8 @@ The general recommendation is to alter temperature **or** Top P but not both.
 
 ### Max Length
 
+## Collections
+
+### Prompts
+
+https://huggingface.co/datasets/fka/awesome-chatgpt-prompts
