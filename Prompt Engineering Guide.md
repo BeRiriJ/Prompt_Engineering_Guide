@@ -126,6 +126,14 @@ The general recommendation is to alter temperature **or** Top P but not both.
 
 ### Max Length
 
+Manage the number of tokens.
+
+### **Stop Sequences**
+
+Like Max Length. Another way to control the length and structure of the model's response. 
+
+For example, you can tell the model to generate lists that have no more than 10 items by adding "11" as a stop sequence.
+
 ## Collections
 
 ### Prompts
