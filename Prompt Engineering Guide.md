@@ -110,6 +110,14 @@ A: Let's think step by step.
 
 https://www.promptingguide.ai/techniques/cot
 
+### Self-Consistency
+
+The idea is to sample multiple, diverse reasoning paths through **few-shot CoT**, and use the generations to select the most consistent answer.
+
+### Generated Knowledge Prompting
+
+
+
 
 
 ## Basic Settings
