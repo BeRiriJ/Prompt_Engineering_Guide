@@ -142,6 +142,8 @@ Like Max Length. Another way to control the length and structure of the model's 
 
 For example, you can tell the model to generate lists that have no more than 10 items by adding "11" as a stop sequence.
 
+In output_parasers, stop sequences can be used in formatted output to stop at a set phrase.
+
 ## Collections
 
 ### Prompts
